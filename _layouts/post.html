@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | replace: '[local]', site.baseurl}}')">
+  {% else %}
+  <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>{{ page.title }}</h1>
+            {% if page.subtitle %}
+            <h2 class="subheading">{{ page.subtitle }}</h2>
+            {% endif %}
+            <span class="meta" style="line-height: 1.5;"><a href="{{site.baseurl}}/about">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
+            &middot;
+            <a href="/by-year/?q={{page.date | date: '%Y'}}">{{ page.date | date: '%Y/%m/%d' }}</a>
+            &middot;
+            <span style="font-style: normal;"><a href="{{site.baseurl}}/categories?q={{page.categories}}">{{page.categories}}</a></span>
+            {% if page.suggest %}
+            &middot;
+            <span style="font-style: normal;">
+              推薦程度 <img src="/img/level/{{page.suggest}}.png" style="height: 12pt; width: auto; margin-bottom: 2pt;"> ({{page.suggest}})
+            </span>
+            {% endif %}
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container post-spec">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        {{ content }}
+
+        <hr>
+
+        <div class="clearfix">
+
+          {% if page.previous.url %}
+          <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; <span class="d-none d-md-inline">
+              上一篇</span></a>
+          {% endif %}
+          {% if page.next.url %}
+          <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}"><span class="d-none d-md-inline">
+              下一篇</span> &rarr;</a>
+          {% endif %}
+
+        </div>
+
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,31 @@
+ // Custom pages styling 
+.categories {
+    padding-top: 10px;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.smoother {
+    padding-top: 1px;
+}
+
+.clearfix {
+    font-family: sans-serif;
+}
+
+.count {
+    font-size: 20px;
+    color: $gray-600;
+    font-weight: 500;
+}
+.categories {
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+.post-spec {
+    h1, h2, h3, h4, h5, h6 {
+        color: $gray-300;
+    }
+}

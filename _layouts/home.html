@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | replace: '[local]', site.baseurl }}')">
+  {% else %}
+  <header class="masthead">
+  {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1 style="font-family: Pacifico;">{{ site.title }}</h1>
+            {% if site.description %}
+            <span class="subheading" style="margin-top: 24pt;">{{ site.description }}</span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        {{ content }}
+
+        <!-- Home Post List -->
+        {% for post in site.posts limit : 5 %}
+
+        <article class="post-preview">
+          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+            <h2 class="post-title">{{ post.title }}</h2>
+            {% if post.subtitle %}
+            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+            {% endif %}
+            <h3 class="post-prev">{{ post.excerpt | strip_html | truncatewords: 30 }}</h3>
+          </a>
+          <p class="post-meta">
+            {% if post.author %}
+            {{ post.author }}
+            {% else %}
+            {{ site.author }}
+            {% endif %}
+            &middot; <span style="font-style: italic;"><a href="/by-year/?q={{ post.date | date: '%Y' }}" style="text-decoration: none;">{{ post.date | date: '%Y/%m/%d' }}</a></span> &middot; <span style="font-style: normal;"><a href="/categories/?q={{post.categories}}">{{post.categories}}</a></span>
+            {% if post.suggest %} &middot; <span style="font-style: normal;"> 推薦 ({{post.suggest}})</span> {% endif %} 
+          </p>
+        </article>
+
+        <hr>
+
+        {% endfor %}
+
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">閱讀更多</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
