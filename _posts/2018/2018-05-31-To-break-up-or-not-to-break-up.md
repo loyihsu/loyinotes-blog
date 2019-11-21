@@ -4,6 +4,7 @@ title:  "Loyi 寶寶的感情相談室"
 date:   2018-05-31 12:00:00 +0800
 background: 'https://i.imgur.com/JXbwAOx.jpg'
 categories: 思考筆記
+lang: "zh"
 ---
 
 畢業之前和同學討論了她的感情狀態。

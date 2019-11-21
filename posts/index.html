@@ -16,12 +16,30 @@ background: '[local]/img/background_posts.jpg'
   </a>
   <p class="post-meta">
     {% if post.author %}
-    {{ post.author }}
+      {{ post.author }}
     {% else %}
-    {{ site.author }}
+      {{ site.author }}
     {% endif %}
-    &middot; <span style="font-style: italic;"><a href="/by-year/?q={{ post.date | date: '%Y' }}" style="text-decoration: none;">{{ post.date | date: '%Y/%m/%d' }}</a></span> &middot; <span style="font-style: normal;"><a href="/categories/?q={{post.categories}}">{{post.categories}}</a></span>
-    {% if post.suggest %} &middot; <span style="font-style: normal;"> 推薦 ({{post.suggest}})</span> {% endif %} 
+    &middot;
+    <!-- Date -->
+    <span style="font-style: italic;">
+      <a href="/by-year/?q={{ post.date | date: '%Y' }}" style="text-decoration: none;">
+        {{ post.date | date: '%Y/%m/%d' }}
+      </a>
+    </span>
+    &middot;
+    <!-- Categories -->
+    <span style="font-style: normal;">
+      <a href="/categories/?q={{post.categories}}">
+        {{post.categories}}
+      </a>
+    </span>
+    &middot;
+    {% include read_time.html content=post.content lang=post.lang %}
+    {% if post.suggest %}
+      &middot;
+      <span style="font-style: normal;"> 推薦 ({{post.suggest}})</span> 
+    {% endif %} 
   </p>
 </article>
 

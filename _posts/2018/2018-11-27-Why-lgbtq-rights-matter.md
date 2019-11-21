@@ -4,6 +4,7 @@ title:  "「彩虹也在霸凌我們」——但為什麼同志人權是基本�
 date:   2018-11-27 12:00:00 +0800
 background: 'https://i.imgur.com/eSkPyYq.jpg'
 categories: 思考筆記
+lang: "zh"
 ---
 
 就在愛家（反同）公投剛結束的時候，看到了一篇名為[「彩虹也在霸凌我們」](https://www.dcard.tw/f/mood/p/230143250?ref=ios&fbclid=IwAR3TrVBIQJUEgaZl8p8EdoHjXv-3Hyi3Ht5e7qfexd1J7qB7-NUIE9JGwmc)的文章，雖然論述上相對可以接受的反同立場文。然而不論是公投結果，還是這篇文章的內容，都在在顯示了目前整體社會氣氛對於同志人權是基本人權的認識還不夠主流。同時，也有人批評同志運動的推行者常常表現得彷彿自己是完全正確的一方，不支持同志人權的就會被罵或是被酸。

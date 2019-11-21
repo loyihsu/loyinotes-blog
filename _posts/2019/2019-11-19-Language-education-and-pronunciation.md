@@ -4,6 +4,7 @@ title:  "發音跟語言教學的目的"
 date:   2019-11-19 12:00:00 +0800
 background: 'https://i.imgur.com/RssBTyc.jpg'
 categories: 思考筆記
+lang: "zh"
 ---
 
 我最喜歡聽的 Podcast 叫做 Stacktrace，是由兩個非英語母語者程式開發者的 John Sundell 跟 Guilherme Rambo 主持的。其中 John 說得一口流利、sounds from nowhere 的美式英語，而 Rambo 的英文就顯得有很重的葡萄牙語腔（巴西人）。

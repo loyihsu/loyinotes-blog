@@ -4,6 +4,7 @@ title:  "So what's next?"
 date:   2019-08-17 12:00:00 +0800
 background: 'https://i.imgur.com/mDyWAL8.jpg'
 categories: lifeNotes
+lang: "en"
 ---
 
 I’d still have to say this anyway, so I’m saying this here secretly.

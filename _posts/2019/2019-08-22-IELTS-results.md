@@ -4,6 +4,7 @@ title:  "IDP IELTS 電腦考心得"
 date:   2019-08-22 12:00:00 +0800
 background: 'https://i.imgur.com/w6stB9v.jpg'
 categories: 研究所申請筆記
+lang: "zh"
 ---
 
 這次報名雅思考試，是因為六月時決定這一年要朝英國申請，研究過各校系之後，申請校中最高標準是要求 IELTS 至少要 band 7 以上。因為聽說 IELTS 電腦考的成績出來比較快（方便二刷 XD），就報名了電腦考。

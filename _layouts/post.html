@@ -22,6 +22,8 @@ layout: default
             <a href="/by-year/?q={{page.date | date: '%Y'}}">{{ page.date | date: '%Y/%m/%d' }}</a>
             &middot;
             <span style="font-style: normal;"><a href="{{site.baseurl}}/categories?q={{page.categories}}">{{page.categories}}</a></span>
+            &middot;
+            {% include read_time.html content=page.content lang=page.lang %}
             {% if page.suggest %}
             &middot;
             <span style="font-style: normal;">

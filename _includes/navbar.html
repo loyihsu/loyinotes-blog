@@ -1,31 +1,20 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
-    {%if page.layout != "home" %}<a class="navbar-brand" href="{{"/" | relative_url }}" style="font-family: Pacifico;">{{ site.title | escape }}</a>{%else%} &nbsp; {%endif%}
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      選單&nbsp;
-      <i class="fa fa-bars"></i>
-    </button>
+    {% if page.layout != "home" %}
+      <a class="navbar-brand" href="{{"/" | relative_url }}" style="font-family: Pacifico;">{{ site.title | escape }}</a>
+    {% else %}
+      &nbsp;
+    {%endif%}
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">選單&nbsp;<i class="fa fa-bars"></i></button>
+
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="{{"/" | relative_url }}">首頁</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ "/posts" | relative_url }}">文章</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ "/categories" | relative_url }}">分類</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ "/by-year" | relative_url }}">年份</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="{{"/about" | relative_url }}">關於</a>
-          </li>
-        <!--<li class="nav-item">
-          <a class="nav-link" href="{{"/contact" | relative_url }}">Contact</a>
-        </li>-->
+        <li class="nav-item"><a class="nav-link" href="{{"/" | relative_url }}">首頁</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ "/posts" | relative_url }}">文章</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ "/categories" | relative_url }}">分類</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ "/by-year" | relative_url }}">年份</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{"/about" | relative_url }}">關於</a></li>
       </ul>
     </div>
   </div>
