@@ -20,16 +20,16 @@ layout: default
             <span class="meta" style="line-height: 1.5;"><a href="{{site.baseurl}}/about">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
             &middot;
             <a href="/by-year/?q={{page.date | date: '%Y'}}">{{ page.date | date: '%Y/%m/%d' }}</a>
-            &middot;
+            <br>
             <span style="font-style: normal;"><a href="{{site.baseurl}}/categories?q={{page.categories}}">{{page.categories}}</a></span>
-            &middot;
-            {% include read_time.html content=page.content lang=page.lang %}
             {% if page.suggest %}
             &middot;
             <span style="font-style: normal;">
               推薦程度 <img src="/img/level/{{page.suggest}}.png" style="height: 12pt; width: auto; margin-bottom: 2pt;"> ({{page.suggest}})
             </span>
             {% endif %}
+            &middot;
+            {% include read_time.html content=page.content lang=page.lang %}
             </span>
           </div>
         </div>

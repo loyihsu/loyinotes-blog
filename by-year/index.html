@@ -41,26 +41,28 @@ window.onload = function () {
       <h3 class="post-prev">{{ post.excerpt | strip_html | truncatewords: 20 }}</h3>
     </a>
     <p class="post-meta">
-      {% if post.author %}
-        {{ post.author }}
-      {% else %}
-        {{ site.author }}
-      {% endif %}
-      &middot;
-      {{ post.date | date: '%Y/%m/%d' }}
-      &middot;
-      <span style="font-style: normal;">
-        <a href="/categories/?q={{post.categories}}">
-          {{post.categories}}
-        </a>
-      </span>
-      &middot;
-      {% include read_time.html content=post.content lang=post.lang %}
-      {% if post.suggest %}
+        <!-- Categories -->
+        <span style="font-style: normal;">
+          <a href="/categories/?q={{post.categories}}">{{post.categories}}</a>
+        </span>
         &middot;
-        <span style="font-style: normal;"> 推薦 ({{post.suggest}})</span>
-      {% endif %} 
-    </p>
+        {% include read_time.html content=post.content lang=post.lang %}
+        {% if post.suggest %}
+          &middot;
+          <span style="font-style: normal;"> 推薦 ({{post.suggest}})</span> 
+        {% endif %} 
+        <br>
+        {% if post.author %}
+          {{ post.author }}
+        {% else %}
+          {{ site.author }}
+        {% endif %}
+        &middot;
+        <!-- Date -->
+        <span style="font-style: italic;">
+          {{ post.date | date: '%Y/%m/%d' }}
+        </span>
+      </p>
   </article>
 
   {% if forloop.last %}

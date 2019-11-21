@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "「彩虹也在霸凌我們」——但為什麼同志人權是基本人權價值？"
+title:  "「彩虹也在霸凌我們」"
+subtitle: "——但為什麼同志人權是基本人權價值？"
 date:   2018-11-27 12:00:00 +0800
 background: 'https://i.imgur.com/eSkPyYq.jpg'
 categories: 思考筆記

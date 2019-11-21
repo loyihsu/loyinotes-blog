@@ -14,7 +14,7 @@
     }
     > .post-subtitle {
       font-size: 24px;
-      color: gray; 
+      color: $gray-600;
       font-weight: 400;
       margin: 0 0 10px;
       line-height: 150%;
@@ -28,6 +28,7 @@
     }
   }
   > .post-meta {
+    line-height: 1.5;
     font-size: 18px;
     font-style: italic;
     margin-top: 0;

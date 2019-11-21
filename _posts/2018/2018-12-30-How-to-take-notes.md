@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "筆記不只是筆記——學會《邊寫邊思考的大腦整理筆記法》"
+title:  "筆記不只是筆記"
+subtitle: "——學會《邊寫邊思考的大腦整理筆記法》"
 date:   2018-12-30 12:00:00 +0800
 background: 'https://i.imgur.com/9MxOGEx.jpg'
 categories: 讀書筆記

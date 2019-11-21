@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "《護家盟不萌》——等等，不只談護家盟"
+title:  "《護家盟不萌》"
+subtitle: "——等等，不只談護家盟"
 date:   2019-01-02 12:00:00 +0800
 background: 'https://i.imgur.com/Wzoakqr.jpg'
 categories: 讀書筆記
