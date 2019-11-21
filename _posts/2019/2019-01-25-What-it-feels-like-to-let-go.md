@@ -14,4 +14,4 @@ categories: 思考筆記
 
 我覺得我的放下是兩個階段的。第一個步驟是認知到那個疤痕是什麼，像是《最後14堂星期二的課》裡面說的：不要執著，但是不執著並不是不去感覺，而是深深地去感覺它，如果會痛就讓它痛，如果會難過就盡情難過。然後體驗夠了，知道那是什麼感覺了，就可以離開它了。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dvKeCcxD3rQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="width: 100%; height: auto; min-height:315px;" src="https://www.youtube.com/embed/dvKeCcxD3rQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
