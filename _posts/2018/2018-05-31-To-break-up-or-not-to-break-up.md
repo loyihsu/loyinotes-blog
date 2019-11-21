@@ -14,7 +14,7 @@ categories: 思考筆記
 
 ## 2
 
-![](https://i.imgur.com/rx4jEIH.png)
+![示意圖](https://i.imgur.com/rx4jEIH.png)
 
 長大後，我們愈來愈明確什麼合適的人，卻模糊了什麼是喜歡的人。怎麼辦？
 
