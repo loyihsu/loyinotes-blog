@@ -1,31 +1,59 @@
- // Custom pages styling 
+// Custom pages styling
 .categories {
-    padding-top: 10px;
-    font-size: 36px;
-    line-height: 150%;
+  padding-top: 10px;
+  font-size: 36px;
+  line-height: 150%;
 }
 
 .smoother {
-    padding-top: 1px;
+  padding-top: 1px;
 }
 
 .clearfix {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 .count {
-    font-size: 20px;
-    color: $gray-600;
-    font-weight: 500;
+  font-size: 20px;
+  color: $gray-600;
+  font-weight: 500;
 }
 .categories {
-    a:hover {
-        text-decoration: none;
-    }
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 .post-spec {
-    h1, h2, h3, h4, h5, h6 {
-        color: $gray-300;
-    }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $gray-300;
+  }
+}
+
+#ic-site {
+  width: 95px;
+  height: 95px;
+
+  margin: auto;
+
+  border-radius: 100px;
+  border: 3.5px solid black;
+
+  background: url(/img/icons/transparent.svg) no-repeat;
+  background-size: 100% 100%;
+  border-color: #adb5bd;
+  background-color: #adb5bd;
+
+  transition: all 0.25s ease-in-out;
+}
+
+#ic-site:hover {
+  background-color: gold;
+  border-color: gold;
+  box-shadow: 0 0 5px 5px rgba(255, 183, 0, 0.4);
 }

@@ -22,14 +22,16 @@ layout: default
             <a href="/by-year/?q={{page.date | date: '%Y'}}">{{ page.date | date: '%Y/%m/%d' }}</a>
             <br>
             <span style="font-style: normal;"><a href="{{site.baseurl}}/categories?q={{page.categories}}">{{page.categories}}</a></span>
-            {% if page.suggest %}
             &middot;
+            {% include read_time.html content=page.content lang=page.lang %}
+            {% if page.suggest %}
+            <br/>
             <span style="font-style: normal;">
               推薦程度 <img src="/img/level/{{page.suggest}}.png" style="height: 12pt; width: auto; margin-bottom: 2pt;"> ({{page.suggest}})
             </span>
             {% endif %}
-            &middot;
-            {% include read_time.html content=page.content lang=page.lang %}
+            <br>
+            <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url={{ site.url | url_encode }}{{ site.baseurl | url_encode }}{{page.url | url_encode }}" alt="Hits" />
             </span>
           </div>
         </div>

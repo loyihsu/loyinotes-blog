@@ -1,4 +1,4 @@
 ---
 layout: home
-background: '[local]/img/background_index.jpg'
+background: '[local]/img/background/index.jpg'
 ---

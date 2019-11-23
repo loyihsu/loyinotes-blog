@@ -37,6 +37,24 @@
             </a>
           </li>
           {% endif %}
+          <!--
+          <li class="list-inline-item">
+            <a href="https://channels.loyi.dev/codes/">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://channels.loyi.dev/life/">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          -->
           {% if site.linkedin_username %}
           <li class="list-inline-item">
             <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
@@ -68,9 +86,13 @@
         </ul>
         <p style="text-align: center; padding-top: 10px;"><i class="fas fa-pen"></i> {{ site.posts | size }}</p>
         
+        <div id="ic-site"></div>
+        <br/>
+        <div style="margin: auto; text-align: center;"><img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url={{ site.url | | url_encode }}}}" alt="Hits" />
+          <p class="copyright text-muted" style="margin: 0px;">The counters for this website are a beta feature provided by <a href="https://hitcounter.pythonanywhere.com/">Hit Counter</a>.</p>
+        </div>
         <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
         <p class="copyright text-muted" style="font-size: 9pt; max-width: 400px; margin:auto; margin-top: 10px; ">This blog is using a custom theme based on <a href="https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll">BlackrockDigital/startbootstrap-clean-blog-jekyll</a> (under <a href="https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/blob/gh-pages/LICENSE">MIT</a> license)</span>
-        
       </div>
     </div>
   </div>

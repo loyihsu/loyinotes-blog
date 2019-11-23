@@ -2,7 +2,7 @@
 layout: page
 title: 關於
 permalink: /about/
-background: '../img/background_about.jpg'
+background: '../img/background/about.jpg'
 ---
 
 # Loyi Yu-Sung Hsu

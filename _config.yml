@@ -19,7 +19,7 @@ author: Loyi Yu-Sung Hsu
 description: >- # this means to ignore newlines until "baseurl:"
   寫下來才不會忘記。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://otaku-blog.loyi.dev" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://notes.loyi.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: theLoyi_tw
 github_username:  loyihsu
 permalink: /posts/:year/:title:output_ext
