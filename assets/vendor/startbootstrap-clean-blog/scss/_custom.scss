@@ -57,3 +57,8 @@
   border-color: gold;
   box-shadow: 0 0 5px 5px rgba(255, 183, 0, 0.4);
 }
+
+blockquote {
+  padding-left: 24pt;
+  border-left: solid 2px $gray-500;
+}

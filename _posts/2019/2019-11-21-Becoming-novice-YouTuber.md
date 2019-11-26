@@ -4,7 +4,7 @@ title:  "成為菜鳥你管者"
 subtitle: "// 你管者 = YouTuber"
 date:   2019-11-21 22:00:00 +0800
 background: 'https://i.imgur.com/vlEpXuT.jpg'
-categories: YouTube幕後日記
+categories: 你管者幕後
 lang: "zh"
 ---
 
