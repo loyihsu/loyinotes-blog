@@ -4,8 +4,7 @@ title:  "成為菜鳥你管者"
 subtitle: "// 你管者 = YouTuber"
 date:   2019-11-21 22:00:00 +0800
 background: 'https://i.imgur.com/vlEpXuT.jpg'
-categories: 你管者幕後
-lang: "zh"
+categories: 專案做起來
 ---
 
 最近創了 YouTube 的頻道，而且一次創了三個，分別是曬貓的「多多與米米的操場」、生活的 「Loyi Hsu」，以及 「loyiCodes」 的部分。不過在創完三個頻道的兩三週後，突然覺得其實：

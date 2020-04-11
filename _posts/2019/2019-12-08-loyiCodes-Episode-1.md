@@ -4,8 +4,7 @@ title:  "loyiCodes 第一集"
 subtitle: "最難的永遠是開始"
 date:   2019-12-08 00:00:00 +0800
 background: 'https://i.imgur.com/flmUa1i.jpg'
-categories: 你管者幕後
-lang: "zh"
+categories: 專案做起來
 ---
 
 上面一篇有說到，在大概十月底的時候因為聽了 NiceChord 好和弦的建議，開始籌備這個 loyiCodes 的頻道。一開始也沒有想要這麼快就上第一支影片，但是後來覺得：嗯，如果不現在開始的話，很有可能就會一拖再拖、一直拖下去也不是辦法。

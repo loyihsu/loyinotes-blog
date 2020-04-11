@@ -4,7 +4,6 @@ title:  "從清大畢業的感言"
 date:   2018-06-09 12:00:00 +0800
 background: 'https://i.imgur.com/grIt1ph.jpg'
 categories: 生活軌跡
-lang: "zh"
 ---
 
 這是一篇，非常長的畢業感言，甚至寫到後面已經放棄連貫了。廢話非常非常多，懶得看就直接跳到最後一段吧。 XD

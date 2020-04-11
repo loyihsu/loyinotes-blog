@@ -5,7 +5,6 @@ subtitle: "從 ＃蘋果宅 到 Loyinotes"
 date:   2019-11-26 20:20:00 +0800
 background: 'https://i.imgur.com/yD2Gb26.jpg'
 categories: 專案做起來
-lang: "zh"
 ---
 
 大一的時候因為無聊在網路上學了 PHP 做了一個簡單的佈告欄系統，因為想要讓服務上線，就在網路上找附帶資料庫的網頁空間。如果有過這樣的經驗就會發現，有資料庫跟伺服器雖然可以完成大部分的東西，但是一個穩定、免費、安全的資料庫真的是可遇不可求，而租用伺服器/資料庫的成本對於一般人日常的使用成本偏高，還可能需要負擔不必要的風險，例如你的伺服器/資料庫被駭入、資料外流之類的狀況。
@@ -22,9 +21,9 @@ lang: "zh"
 
 而上面敘述的這個方式其實就是「靜態網頁生成器」(Static Site Generator, SSG) 的原理。而在開發者們幾乎有在用的 [GitHub](https://github.com) 上有提供 [GitHub Pages](https://github.io) 的網頁空間[^works]，而且支援一個叫做 [Jekyll](https://jekyllrb.com/) 靜態網頁生成器。
 
-![](https://i.imgur.com/0qaQY37.png)
+![GitHub Pages](https://i.imgur.com/0qaQY37.png)
 
-[^works]: 運作方式是每個帳號都有 http://[帳號].github.io 可以免費使用，不同容器 (repository) 也可以變成不同的獨立網頁，放程式碼的容器也可以開一個分枝 (branch) 放（程式介紹）網頁。
+[^works]: 運作方式是每個帳號都有一個 http://[帳號].github.io 可以免費使用，不同容器 (repository) 也可以變成不同的獨立網頁，放程式碼的容器也可以開一個分枝 (branch) 放（程式介紹）網頁。
 
 基本上 SSG 的材料就是融合了：
 
@@ -42,7 +41,7 @@ lang: "zh"
 
 ## 不用太深的技術背景也用得了
 
-![](https://i.imgur.com/WEwRx9O.png)
+![Jekyll Website](https://i.imgur.com/WEwRx9O.png)
 
 雖然要實現完全的自由度需要你自己寫主題，但是其實你剛創好專案就會有最基礎的主題（如上圖），而且有很多開發主題的人已經預先寫好了很多好用的主題，這些主題可能包含 GitHub 上直接可以切換的預設主題，一些開發者自主開發的主題，當然你要自己寫就是要稍微有網頁開發的經驗，還要稍微研究一下它的原理。
 
@@ -56,18 +55,18 @@ lang: "zh"
 
 * \_config.yml (**一些網站的基本設定（如：網站標題、作者名字⋯⋯等等）**)
 * \_drafts (**放草稿的地方**)
-    * my-draft.md
+  * my-draft.md
 * \_includes (**放實作的地方（通常是會一直重複的部分）**)
-    * footer.html
-    * header.html
+  * footer.html
+  * header.html
 * \_layouts (**放模板架構的地方**)
-    * default.html
-    * post.html
+  * default.html
+  * post.html
 * \_posts (**放文章的地方**)
-    * 2019-11-26-my-post.md
+  * 2019-11-26-my-post.md
 * \_sass (**放客製化樣式表（如 CSS 檔）的地方**)
-    * _base.scss
-    * _layout.scss
+  * _base.scss
+  * _layout.scss
 * \_site (**生成的網站**)
 * index.html (**首頁檔**)
 

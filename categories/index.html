@@ -40,11 +40,9 @@ window.onload = function () {
             <span style="font-style: normal;">
               {{post.categories}}
             </span>
-            &middot;
-            {% include read_time.html content=post.content lang=post.lang %}
             {% if post.suggest %}
               &middot;
-              <span style="font-style: normal;"> 推薦 ({{post.suggest}})</span> 
+              <span style="font-style: normal;"> 推薦 <img src="/img/level/{{post.suggest}}.png" style="height: 12pt; width: auto; margin-bottom: 2pt;"> ({{post.suggest}})</span> 
             {% endif %} 
             <br>
             {% if post.author %}
@@ -55,7 +53,7 @@ window.onload = function () {
             &middot;
             <!-- Date -->
             <span style="font-style: italic;">
-              <a href="/by-year/?q={{ post.date | date: '%Y' }}" style="text-decoration: none;">
+              <a href="/year/?q={{ post.date | date: '%Y' }}" style="text-decoration: none;">
                 {{ post.date | date: '%Y/%m/%d' }}
               </a>
             </span>

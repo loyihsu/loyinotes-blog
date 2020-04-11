@@ -1,8 +1,0 @@
-<span class="reading-time" style="font-style: normal;" title="Estimated read time">
-  {% assign words = include.content | size %}
-  {% if include.lang == "zh" %}
-    {{ words | divided_by: 275 }} 分鐘
-  {% else %}
-    {{ include.content | number_of_words | divided_by:135 }} 分鐘
-  {% endif %}
-</span>

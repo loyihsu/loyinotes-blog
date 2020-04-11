@@ -6,7 +6,6 @@ date:   2017-08-19 12:00:00 +0800
 background: 'https://i.imgur.com/rtJaCDu.jpg'
 categories: 讀書筆記
 suggest: 4
-lang: "zh"
 ---
 
 《*Harry Potter and the Chamber of Secrets*》（《哈利波特(2)：消失的密室》）是一本由英國作者 J. K. 羅琳所創作的小說，為《哈利波特》系列的第二本，接續著 1997 年的《*Harry Potter and the Philosopher's Stone*》（《哈利波特(1)：神秘的魔法石》，美國版出版時將標題改為《*Harry Potter and the Sorcerer's Stone*》），說的是魔法世界名人「哈利波特」的故事。
@@ -31,4 +30,4 @@ lang: "zh"
 
 這本書中除了對人名、地名、魔咒名的介紹之外，也有對英語語言的歷史的基本介紹作為背景知識；同時，就像上面這樣，也會介紹一些和這個詞源有關的單字與背後的文化，對於有心學習英文或是歷史語言學（historical linguistics）都是一本不錯的工具書！
 
-*參考資料／《哈利波特語源揭秘》（作者：柯安娜／譯者：黃嘉瑜）（2005）*
+參考資料／《哈利波特語源揭秘》（作者：柯安娜／譯者：黃嘉瑜）（2005）

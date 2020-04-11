@@ -4,7 +4,6 @@ title:  "所以外語系到底是學什麼的"
 date:   2016-06-11 12:00:00 +0800
 background: 'https://i.imgur.com/uckEDTg.jpg'
 categories: 思考筆記
-lang: "zh"
 ---
 
 那隻豬腳 (Dcard) 上有人在說他爸媽說外語系沒前途，逼他選資工系，但是他念的很不開心。所以我一邊等問卷一邊順手寫了這篇。

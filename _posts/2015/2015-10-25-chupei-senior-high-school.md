@@ -4,7 +4,6 @@ title:  "竹北高中"
 date:   2015-10-25 12:00:00 +0800
 background: 'https://i.imgur.com/ehWb1BB.jpg'
 categories: 生活軌跡
-lang: "zh"
 ---
 
 好久沒有走進校門了。

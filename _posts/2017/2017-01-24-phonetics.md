@@ -4,7 +4,6 @@ title:  "送氣音與清濁音"
 date:   2017-01-24 12:00:00 +0800
 background: 'https://i.imgur.com/j3DreRY.jpg'
 categories: 學語言專欄
-lang: "zh"
 ---
 
 好的，因為我真的好久以前就說我想要寫這篇文章，還是來先開個頭好了。幾乎所有被語音學折磨過或是正在被語音學折磨的人，都一定聽過送氣音(aspirated)這個特徵(feature)。

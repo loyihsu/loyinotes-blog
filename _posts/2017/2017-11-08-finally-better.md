@@ -3,8 +3,7 @@ layout: post
 title:  "總是好起來了"
 date:   2017-11-08 12:00:00 +0800
 background: 'https://i.imgur.com/OoRNT9s.jpg'
-categories: 西西里
-lang: "zh"
+categories: 寄不出去的信
 ---
 
 總是好起來了，總是以為自己好起來了。

@@ -3,8 +3,7 @@ layout: post
 title:  "空氣人"
 date:   2017-01-25 12:00:00 +0800
 background: 'https://i.imgur.com/OoRNT9s.jpg'
-categories: 西西里
-lang: "zh"
+categories: 寄不出去的信
 ---
 
 其實，那之後的生活很容易。比想像中的容易。

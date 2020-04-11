@@ -62,3 +62,22 @@ blockquote {
   padding-left: 24pt;
   border-left: solid 2px $gray-500;
 }
+
+.CategoryBadge {
+  font-style: normal;
+  font-size: 11pt;
+  padding: 3pt;
+  color: black;
+  border-radius: 3pt;
+  background-color: $gray-300;
+  @include transition-all;
+}
+
+.CategoryBadge:hover {
+  color: white;
+  background-color: $primary;
+}
+
+cat:hover {
+  text-decoration: none;
+}

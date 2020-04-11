@@ -5,7 +5,6 @@ date:   2017-10-07 12:00:00 +0800
 background: 'https://i.imgur.com/fBKfgQO.jpg'
 categories: 讀書筆記
 suggest: 4
-lang: "zh"
 ---
 
 我從小學四年級開始聽相聲。

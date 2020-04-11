@@ -4,7 +4,6 @@ title:  "很久沒有回去的地方"
 date:   2016-12-17 12:00:00 +0800
 background: 'https://i.imgur.com/DspQ3uU.jpg'
 categories: 生活軌跡
-lang: "zh"
 ---
 
 天氣隔了一夜突然有了冬天的味道，戴上耳機，播得是高三最常聽的演奏專輯，從大學所在的光復路上，悄悄往補習街走去。

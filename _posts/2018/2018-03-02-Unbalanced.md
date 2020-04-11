@@ -3,8 +3,7 @@ layout: post
 title:  "懷念的失蹤"
 date:   2018-03-02 12:00:00 +0800
 background: 'https://i.imgur.com/lCefHhq.jpg'
-categories: 西西里
-lang: "zh"
+categories: 寄不出去的信
 ---
 
 有一天，突然找不到懷念的感覺了。

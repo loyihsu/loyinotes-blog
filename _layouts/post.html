@@ -12,20 +12,17 @@ layout: default
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-heading">
-            <h1>{{ page.title }}</h1>
+         <div class="post-heading">
+            <a class="cat" href="{{site.baseurl}}/categories?q={{page.categories}}"><span class="CategoryBadge">{{page.categories}}</span></a>
+            <h1 style="padding-top: 12pt;">{{ page.title }}</h1>
             {% if page.subtitle %}
             <h2 class="subheading">{{ page.subtitle }}</h2>
             {% endif %}
             <span class="meta" style="line-height: 1.5;"><a href="{{site.baseurl}}/about">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
             &middot;
-            <a href="/by-year/?q={{page.date | date: '%Y'}}">{{ page.date | date: '%Y/%m/%d' }}</a>
-            <br>
-            <span style="font-style: normal;"><a href="{{site.baseurl}}/categories?q={{page.categories}}">{{page.categories}}</a></span>
-            &middot;
-            {% include read_time.html content=page.content lang=page.lang %}
+            <a href="/year/?q={{page.date | date: '%Y'}}">{{ page.date | date: '%Y/%m/%d' }}</a>
             {% if page.suggest %}
-            <br/>
+            &middot;
             <span style="font-style: normal;">
               推薦程度 <img src="/img/level/{{page.suggest}}.png" style="height: 12pt; width: auto; margin-bottom: 2pt;"> ({{page.suggest}})
             </span>
