@@ -6,8 +6,6 @@
         {{ site.title | escape }} - {{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}
         {% endif %}
     </title>
-    
-    {% include analytics.html %}
 
     <!-- Metadata -->
     <meta charset="utf-8" />
